@@ -1,16 +1,28 @@
-.callus_card_container{
-    background: #161931;
-    color: #fff;
-    padding-bottom: 5px;
-    width: 350px;
-    border-radius:10px;
+.container_contactus {
+  background-image: url(../public/contactUsbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.caller_logo{
-    position: relative;
-    width: 60px;
-    height: 60px;
-    padding: 15px;
-    top: -35px;
-    
+.callus_card_container {
+  background: rgba(239, 239, 239, 0.7);
+  /* background-image: linear-gradient(to right, rgb(51, 62, 120) , rgb(136, 148, 148)); */
+  color: rgb(14, 13, 13);
+  padding-bottom: 30px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.caller_logo {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  top: -35px;
+  background-image: linear-gradient(
+    to right,
+    rgb(115, 236, 91),
+    rgb(22, 108, 39)
+  );
 }

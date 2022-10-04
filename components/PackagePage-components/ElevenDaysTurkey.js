@@ -2,7 +2,7 @@ import ButtonGroup from "../utility-components/ButtonGroup";
 
 export default function ElevenDaysTurkey() {
 
-  const greenBTN = {linkCaption:"Lets go", link:""};
+  const greenBTN = {linkCaption:"Get started", link:"https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F114020414634464%2F%3Fmessaging_source%3Dsource%253Apages%253Amessage_shortlink%26source_id%3D1441792%26recurring_notification%3D0"};
   const whiteBTN = {linkCaption:"Learn more", link:"/Packages"};
 
   return (
@@ -37,7 +37,7 @@ export default function ElevenDaysTurkey() {
                 <li>All entrance fees</li>
             </div>
         </div>
-        <ButtonGroup greenBtn={greenBTN} whiteBtn={whiteBTN}/>
+        <ButtonGroup greenBtn={greenBTN} whiteBtn={whiteBTN} isDestinationPage={true} />
     </div>
   )
 }

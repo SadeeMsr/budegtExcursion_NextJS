@@ -6,7 +6,7 @@ export default function ClientReview() {
       <div className={`${styles.carousal_container}`}>
         <div
           id="carouselExampleIndicators"
-          className="carousel slide w-75"
+          className="carousel slide w-75 carousel-dark"
           data-bs-ride="true"
         >
           <div className="carousel-indicators">
@@ -14,19 +14,19 @@ export default function ClientReview() {
               type="button"
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide-to="0"
-              className="active bg-dark"
+              className="active"
               aria-current="true"
               aria-label="Slide 1"
             ></button>
             <button
-              className="active bg-dark"
+              className="active"
               type="button"
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide-to="1"
               aria-label="Slide 2"
             ></button>
             <button
-              className="active bg-dark"
+              className="active"
               type="button"
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide-to="2"

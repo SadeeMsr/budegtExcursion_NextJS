@@ -33,7 +33,7 @@ export default function Istanbul() {
         <div className="row mt-5">
           <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center" style={{minHeight:"500px"}}>
             <div>
-              <h1 className="fw-bolder">Istambul</h1>
+              <h1 className="fw-bolder">Istanbul</h1>
               <p className="text-muted pe-lg-5">
                 Prepare to be awed by Istanbul’s magnificent architecture, rich
                 history, and eclectic bazaars as you discover the unmissable

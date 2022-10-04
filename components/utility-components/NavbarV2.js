@@ -4,7 +4,7 @@ import Image from "next/image";
 import logo from "../../public/logo.png";
 import Link from "next/link";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
-import { dropdownLinks, mainLinks } from "../../utilities/Navlinks";
+import { mainLinks } from "../../utilities/Navlinks";
 
 export default function NavbarV2() {
   const [isShrunk, setShrunk] = useState(false);
@@ -73,64 +73,60 @@ export default function NavbarV2() {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav mt-md-3 mt-5 ms-auto">
               {mainLinks.map((navItem, index) => {
-                return (
-                  <Link href={navItem.nav_link} key={index}>
-                    <a className={`nav-link text-light ${styles.nav_content}`}>
+                if (navItem.nav_link !== "/SearchHotels") {
+                  return (
+                    <Link href={navItem.nav_link} key={index}>
+                      <a className={`text-light nav-link ${styles.nav_content}`}>
+                        {navItem.nav_name}
+                      </a>
+                    </Link>
+                  );
+                }
+
+                if (navItem.nav_link === "/SearchHotels") {
+                  return (
+                    <a
+                      href={navItem.nav_link}
+                      key={index}
+                      className={`text-light nav-link ${styles.nav_content}`}
+                    >
                       {navItem.nav_name}
                     </a>
-                  </Link>
-                );
+                  );
+                }
               })}
-
-              <div className={`nav-item dropdown`}>
-                <Link href="">
-                  <a
-                    className={`nav-link text-light dropdown-toggle ${styles.nav_content}`}
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    More
-                  </a>
-                </Link>
-                <ul className="dropdown-menu bg-dark">
-                  {dropdownLinks.map((navItem, index) => {
-                    return (
-                      <li key={index} className="py-2">
-                        <Link href={navItem.nav_link}>
-                          <a
-                            className={`dropdown-item text-light ${styles.drop_content}`}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            {navItem.nav_name}
-                          </a>
-                        </Link>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
 
               <div className="d-flex align-items-center mt-md-0 mt-3 ms-md-5">
                 <Link href="https://www.facebook.com/budgetexcursions">
                   <a>
-                    <FaFacebookF className="me-3 fs-5 text-light" target="_blank"/>
+                    <FaFacebookF
+                      className="me-3 fs-5 text-light"
+                      target="_blank"
+                    />
                   </a>
                 </Link>
                 <Link href="https://twitter.com/BudgetExcursion">
                   <a>
-                    <FaTwitter className="me-3 fs-5 text-light" target="_blank"/>
+                    <FaTwitter
+                      className="me-3 fs-5 text-light"
+                      target="_blank"
+                    />
                   </a>
                 </Link>
                 <Link href="https://www.instagram.com/budgetexcursionsbd/?r=nametag">
                   <a>
-                    <FaInstagram className="me-3 fs-5 text-light" target="_blank"/>
+                    <FaInstagram
+                      className="me-3 fs-5 text-light"
+                      target="_blank"
+                    />
                   </a>
                 </Link>
                 <Link href="https://www.youtube.com/channel/UCSKWI7rDN1GrCTxfeQHFIpg">
                   <a>
-                    <FaYoutube className="me-3 fs-5 text-light" target="_blank"/>
+                    <FaYoutube
+                      className="me-3 fs-5 text-light"
+                      target="_blank"
+                    />
                   </a>
                 </Link>
               </div>

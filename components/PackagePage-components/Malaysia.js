@@ -36,7 +36,7 @@ export default function Malaysia() {
                 Bella Vista Hotel in Langkawi. Airport to Hotel transportation
                 will also be arranged by us!
               </p>
-              <GreenButton greenBtn={{linkCaption:"Get Started", link:"https://www.history.com/topics/ancient-greece/ephesus"}}/>
+              <GreenButton greenBtn={{linkCaption:"Get Started", link:"https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F114020414634464%2F%3Fmessaging_source%3Dsource%253Apages%253Amessage_shortlink%26source_id%3D1441792%26recurring_notification%3D0"}} isDestinationPage={true}/>
             </div>
           </div>
         </div>

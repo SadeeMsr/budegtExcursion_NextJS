@@ -1,8 +1,10 @@
+import styles from '../../styles/fullyguided.module.css'
+
 
 export default function TourPlaceCard({data, logo}) {
    
   return (
-    <div className="rounded-4 m-2 p-4 shadow" style={{minHeight:'400px'}}>
+    <div className={`rounded-4 m-2 p-4 shadow ${styles.fullyGuided_card}`} style={{minHeight:'400px'}}>
       <div className="d-flex align-items-end">
         <div className="bg-success p-2 rounded-circle me-3 shadow">
           {logo}

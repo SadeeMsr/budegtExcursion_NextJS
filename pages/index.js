@@ -27,7 +27,6 @@ export default function Index() {
       <Faq />
       <PerfectHoliday />
       <ClientReview />
-      <div id="adgshp658278494"></div>
       <Contacts />
       <Footer />
     </div>

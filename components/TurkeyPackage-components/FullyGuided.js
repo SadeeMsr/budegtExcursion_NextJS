@@ -1,3 +1,4 @@
+import styles from '../../styles/fullyguided.module.css'
 import TourPlaceCard from "../utility-components/TourPlaceCard";
 import { FaChurch,FaUmbrellaBeach, FaCloud, FaPlaceOfWorship,  } from "react-icons/fa";
 import { TbBeachOff } from "react-icons/tb";
@@ -46,10 +47,10 @@ export default function FullyGuided() {
   const logoCappadocia = <GiFlowerPot className="text-light fs-3" />
 
   return (
-    <div className="py-5" id="fullyGuidedTour">
+    <div className={`${styles.fullyGuided_container} py-5`} id="fullyGuidedTour">
       <div className="container py-5">
-        <h1 className="text-center fw-bolder">Fully Guided Package</h1>
-        <p className="text-center text-muted">
+        <h1 className="text-center fw-bolder text-light">Fully Guided Package</h1>
+        <p className="text-center text-light">
           TOUR ROUTE: &nbsp; Istanbul - Gallipoli - Troy - Pergamon - Kusadasi -
           Ephesus - Pamukkale - Antalya - Konya - Cappadocia – Fly back to
           Istanbul

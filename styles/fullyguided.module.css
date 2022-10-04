@@ -1,0 +1,10 @@
+.fullyGuided_container{
+    background-image: url(../public/turkeyFlag.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fullyGuided_card{
+    background: rgba(239, 239, 239, 0.7);
+}
