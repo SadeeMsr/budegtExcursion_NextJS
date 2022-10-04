@@ -1,0 +1,14 @@
+.bgWrap {
+  position: relative;
+  height: 250px;
+  width: 100vw;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.bgText {
+  /* position: relative; */
+  position: absolute;
+  padding: 80px 0px 20px 20px;
+  z-index: 1000;
+}

@@ -1,0 +1,31 @@
+.bgWrap {
+  position: relative;
+  height:52em;
+  width: 100vw;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.bgText {
+  /* position: relative; */
+  position: absolute;
+  padding: 50px 0px 0px 0px;
+  z-index: 1000;
+}
+
+
+
+@media only screen and (max-width: 426px) {
+  .bgWrap {
+    height: 25em;
+  }
+  .bgText {
+    padding-top:10px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .bgWrap {
+    height: 40em;
+  }
+}

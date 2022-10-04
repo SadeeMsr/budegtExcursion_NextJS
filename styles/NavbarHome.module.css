@@ -1,0 +1,57 @@
+.nav_logo {
+  transition: all 0.5s;
+  height: 100px;
+  width: 130px;
+}
+
+.nav_logo_shrunk {
+    transition: all 0.4s;
+    height: 35px;
+    width: 65px;
+  }
+
+.nav_shrink{
+    background: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.nav_content{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 4px;
+}
+
+.drop_content{
+    font-size: 15px;
+    font-weight: 300;
+    color: #1f2633;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .nav_logo {
+    height: 60px;
+    width: 90px;
+    margin-bottom: 10px;
+  }
+  .nav_logo_shrunk {
+    height: 40px;
+    width: 70px;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .nav_logo {
+    height: 90px;
+    width: 120px;
+  }
+  .nav_logo_shrunk {
+    height: 40px;
+    width: 70px;
+  }
+  
+}

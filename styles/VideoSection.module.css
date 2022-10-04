@@ -1,0 +1,31 @@
+.video_container {
+    width: 55rem;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+
+  @media (max-width: 320px) {
+    .video_container {
+      width: 17rem;
+    }
+  }
+  
+  @media (min-width: 321px) and (max-width: 376px) {
+    .video_container {
+      width: 19rem;
+    }
+  }
+  
+  @media (min-width: 377px) and (max-width: 426px) {
+      .video_container {
+          width: 21rem;
+        }
+  }
+  
+  @media (min-width: 426px) and (max-width: 769px) {
+      .video_container {
+          width: 40rem;
+        }
+  }
+  

@@ -1,0 +1,16 @@
+.callus_card_container{
+    background: #161931;
+    color: #fff;
+    padding-bottom: 5px;
+    width: 350px;
+    border-radius:10px;
+}
+
+.caller_logo{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    top: -35px;
+    
+}

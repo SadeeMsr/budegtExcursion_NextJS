@@ -1,0 +1,17 @@
+.btn_grad {
+    background-image: linear-gradient(to top, #15421f 0%, #b6ecbe 91%);
+    padding: 18px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    border: none;
+  }
+  
+  .btn_grad:hover {
+      background-image: linear-gradient(to top, #4dc66b 0%, #afd6b5 91%); /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }

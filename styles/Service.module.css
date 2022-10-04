@@ -1,0 +1,39 @@
+.service_container{
+    background: #1F2633;
+    height: auto;
+    padding: 80px;
+}
+
+.service_columns{
+    width: 18rem;
+    height: 300px;
+}
+
+.service_columns>h1{
+    color: #D5FFBF;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+}
+
+.service_icons{
+    color: #D5FFBF;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .service_columns{
+        width: 15rem;
+        height: 380px;
+    }
+    
+   
+  }
+
+
+

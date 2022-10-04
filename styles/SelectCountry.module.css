@@ -1,0 +1,6 @@
+.option_container{
+    height: 280px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
