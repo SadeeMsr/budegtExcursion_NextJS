@@ -98,38 +98,28 @@ export default function NavbarHome() {
 
               <div className="d-flex align-items-center mt-md-0 mt-3 ms-md-5">
                 <Link href="https://www.facebook.com/budgetexcursions">
-                  <a>
-                    <FaFacebookF
-                      className="me-3 fs-5 text-dark"
-                      target="_blank"
-                    />
+                  <a target="_blank" rel="noreferrer">
+                    <FaFacebookF className="me-3 fs-5 text-dark" />
                   </a>
                 </Link>
 
                 <Link href="https://twitter.com/BudgetExcursion">
-                  <a>
-                    <FaTwitter
-                      className="me-3 fs-5 text-dark"
-                      target="_blank"
-                    />
+                  <a target="_blank" rel="noreferrer">
+                    <FaTwitter className="me-3 fs-5 text-dark" />
                   </a>
                 </Link>
 
                 <Link href="https://www.instagram.com/budgetexcursionsbd/?r=nametag">
-                  <a>
+                  <a target="_blank" rel="noreferrer">
                     <FaInstagram
                       className="me-3 fs-5 text-dark"
-                      target="_blank"
                     />
                   </a>
                 </Link>
 
                 <Link href="https://www.youtube.com/channel/UCSKWI7rDN1GrCTxfeQHFIpg">
-                  <a>
-                    <FaYoutube
-                      className="me-3 fs-5 text-dark"
-                      target="_blank"
-                    />
+                  <a target="_blank" rel="noreferrer">
+                    <FaYoutube className="me-3 fs-5 text-dark" />
                   </a>
                 </Link>
               </div>
