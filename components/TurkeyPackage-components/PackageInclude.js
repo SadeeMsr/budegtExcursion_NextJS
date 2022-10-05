@@ -8,12 +8,12 @@ export default function PackageInclude() {
     <div id="PackageInclude">
       <div>
         <div className="row">
-          <div className="col">
+          <div className="col-12 col-lg-4">
             <div className="overflow-hidden">
               <Image src={image1} layout="responsive" alt="..." priority />
             </div>
           </div>
-          <div className="col d-flex justify-content-center align-items-center">
+          <div className="col-12 col-lg-4 d-flex justify-content-center align-items-center">
             <div>
               <h4 className="text-center fw-bolder">Transportation</h4>
               <p className="text-center fw-light">
@@ -26,7 +26,7 @@ export default function PackageInclude() {
               </p>
             </div>
           </div>
-          <div className="col">
+          <div className="col-12 col-lg-4">
             <div className="overflow-hidden">
               <Image src={image2} layout="responsive" alt="..." priority />
             </div>
@@ -34,7 +34,7 @@ export default function PackageInclude() {
         </div>
 
         <div className="row">
-          <div className="col  d-flex justify-content-center align-items-center">
+          <div className="col-12 col-lg-4  d-flex justify-content-center align-items-center">
             <div>
               <h4 className="text-center fw-bolder">Tour Guide</h4>
               <p className="text-center fw-light">
@@ -44,12 +44,12 @@ export default function PackageInclude() {
               </p>
             </div>
           </div>
-          <div className="col">
+          <div className="col-12 col-lg-4">
             <div className="overflow-hidden">
               <Image src={image3} layout="responsive" alt="..." priority />
             </div>
           </div>
-          <div className="col  d-flex justify-content-center align-items-center">
+          <div className="col-12 col-lg-4  d-flex justify-content-center align-items-center">
             <div>
               <h4 className="text-center fw-bolder">Meals</h4>
               <p className="text-center fw-light">

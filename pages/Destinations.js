@@ -10,6 +10,7 @@ import bg1 from "../public/redCar.jpg";
 import bg2 from "../public/bikiniGirl.jpg";
 import bg3 from "../public/temple.jpg";
 import bg4 from "../public/twinTower.jpg";
+import bg5 from "../public/maldives.jpg";
 import KaaniGrandMafuushi from "../components/PackagePage-components/KaaniGrandMafuushi";
 import AquzzIn from "../components/PackagePage-components/AquzzIn";
 import Pattaya from "../components/PackagePage-components/Pattaya";
@@ -22,7 +23,7 @@ import NavbarV2 from "../components/utility-components/NavbarV2";
 export default function Packages() {
   return (
     <div>
-        <IntroPackage />
+        <IntroPackage title={"Budget Excursion"} subtitle={"Your One Stop Travel Solutions"} bg={bg5} />
         <SelectCountry />
         <RafsanTC />
         <ParallaxContents preHeader={"Your Fairytale Awaits"} header={"Explore Turkey"} link={"/TurkeyPackage"} bg={bg1} />

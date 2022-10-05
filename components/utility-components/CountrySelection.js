@@ -26,7 +26,7 @@ export default function CountrySelection({country, desc, bg, link}) {
     <div className={`${styles.option_container}`}>
       <div className="position-relative d-flex justify-content-center">
         <div
-          className="mt-4"
+          className="mt-4 px-3"
           style={style1.bgText}
         >
           <h1

@@ -1,11 +1,10 @@
 import Image from "next/image";
-import bg from "../../public/maldives.jpg";
 
-export default function IntroPackage() {
+export default function IntroPackage({title,subtitle, bg}) {
   const styles = {
     bgWrap: {
       position: "relative",
-      height: "24em",
+      height: "25em",
       width: "100vw",
       overflow: "hidden",
       zIndex: 1,
@@ -23,8 +22,8 @@ export default function IntroPackage() {
     <div>
       <div className="position-relative d-flex justify-content-center">
         <div className="mt-5 pt-4 pt-md-5" style={styles.bgText}>
-          <h1 className="text-light fw-bolder text-center pt-5" style={{fontSize:"60px"}}>Budget Excursion</h1>
-          <p className="text-light text-center">Your One Stop Travel Solutions</p>
+          <h1 className="text-light fw-bolder text-center pt-5" style={{fontSize:"60px"}}>{title}</h1>
+          <p className="text-light text-center">{subtitle}</p>
         </div>
       </div>
       <div style={styles.bgWrap}>

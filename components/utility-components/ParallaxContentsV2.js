@@ -1,7 +1,7 @@
 import styles from "../../styles/Parallax.module.css";
 import Image from "next/image";
 
-export default function ParallaxContentsV2({ preHeader, header, link, bg }) {
+export default function ParallaxContentsV2({ postHeader, header, link, bg }) {
   return (
     <div>
       <div className="d-flex justify-content-center align-content-center">
@@ -13,6 +13,9 @@ export default function ParallaxContentsV2({ preHeader, header, link, bg }) {
           >
             {header}
           </h1>
+          {
+            postHeader && <p className="fw-light text-center text-dark">{postHeader}</p>
+          }
           <a href={link} className="nav-link mt-4 text-dark text-center">
             Book now &gt;
           </a>
