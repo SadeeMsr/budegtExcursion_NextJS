@@ -14,6 +14,7 @@ import Footer from "../components/utility-components/Footer";
 import ClientReview from "../components/Homepage-components/ClientReview";
 import Contacts from "../components/Homepage-components/Contacts";
 
+// "next-sitemap": "^1.6.133"
 export default function Index() {
   return (
     <div className="overflow-hidden">
