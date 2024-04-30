@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://budegt-excursion-next-krnbpkss3-sadeemsrs-projects.vercel.app/
+Host: https://budegt-excursion-next-js.vercel.app/
 
 # Sitemaps
-Sitemap: https://budegt-excursion-next-krnbpkss3-sadeemsrs-projects.vercel.app/sitemap.xml
+Sitemap: https://budegt-excursion-next-js.vercel.app/sitemap.xml

@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://budegt-excursion-next-krnbpkss3-sadeemsrs-projects.vercel.app/',
+  siteUrl: 'https://budegt-excursion-next-js.vercel.app/',
   generateRobotsTxt: true, // (optional)
   // ...other options
 }
